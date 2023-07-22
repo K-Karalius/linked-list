@@ -3,12 +3,6 @@ Implementation of a circular doubly linked list
 
 ![menu](/images/menu.PNG)
 
-## Features
-* load the list from file
-* print the list to console
-* remove largest value in the list
-* delete the list
-
 ## Technologies
 * C language
 * Makefile

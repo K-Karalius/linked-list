@@ -1,9 +1,9 @@
 CC=gcc
 OUTPUT = program.exe
-SOURCE = main.c
 
-all:
-	$(CC) $(SOURCE) funcs.c -o $(OUTPUT)
-	./$(OUTPUT)
+compile: main.c funcs.c
+	$(CC) -o $(OUTPUT) main.c funcs.c
+run: 
+	$(OUTPUT)
 clean:
-	$(RM) $(OUTPUT)
+	erase $(OUTPUT)

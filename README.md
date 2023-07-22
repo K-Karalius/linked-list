@@ -1,6 +1,7 @@
 # linked-list
 Implementation of a circular doubly linked list
 
+!(menu)[/images/menu.png]
 
 ## Features
 * load the list from file
@@ -21,5 +22,12 @@ Implementation of a circular doubly linked list
   
 #### Compile and run
 
+If you have `make` installed, simply run:
+* `make` to compile
+* `make run` to run executable
+
+Otherwise: 
+* `gcc -o program.exe main.c funcs.c` to compile
+* `program.exe` to run
 
 

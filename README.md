@@ -1,7 +1,7 @@
 # linked-list
 Implementation of a circular doubly linked list
 
-![menu](/images/menu.png)
+![menu](/images/menu.PNG)
 
 ## Features
 * load the list from file

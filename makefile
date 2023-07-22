@@ -1,6 +1,6 @@
 CC=gcc
 OUTPUT = program.exe
-SOURCE = uzduotis_4.c
+SOURCE = main.c
 
 all:
 	$(CC) $(SOURCE) funcs.c -o $(OUTPUT)
